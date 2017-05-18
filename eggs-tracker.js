@@ -258,7 +258,15 @@ $('#new-line').on('click', function() {
 });
 
 $('#reset').on('click', function() {
-	localStorage.setItem('eggData', initialEggData);
-	location.reload();
+	confirm.display();
+	
+	$('#yes').on('click', function() {
+		confirm.destroy();
+		localStorage.setItem('eggData', initialEggData);
+		location.reload();
+	});
+	
+	$('#no').on('click', function() {
+		confirm.destroy();
+	});
 });
-
