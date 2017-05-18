@@ -1,0 +1,109 @@
+body {
+	background-color: #ededed;
+	font-weight: bold
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse; 
+	line-height: 30px;
+}
+
+tr {
+	border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+td {
+	text-align: center;
+	width: 30%;
+}
+
+td.narrow {
+	width: 10%;
+}
+
+input {
+	width: 33%;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+}
+
+button {
+	border: none;
+	border-radius: 3px;
+    color: #eeeeee;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-weight: bolder;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:active, button:hover {
+	color: #ffffff;
+}
+
+.plus {
+	background-color: #4caf50;
+	width: 20px;
+}
+
+.plus:active, .plus:hover {
+	background-color: #39843b;
+}
+
+.minus {
+	background-color: #bf0000;
+	width: 20px;
+}
+
+.minus:active, .minus:hover {
+	background-color: #a30000;
+}
+
+#title {
+    text-align: center;	
+}
+
+.history {
+	color: darkgray;
+}
+
+.date {
+	font-weight: normal;
+    font-size: 14px;
+}
+
+#new-line {
+	margin-top: 12px;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#reset, #new-line {
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #4caf50;
+}
+
+#reset:active, #reset:hover, #new-line:active, #new-line:hover {
+	background-color: #39843b;
+}
+
+#reset {
+	float: left;
+}
+
+#new-line {
+	float: right;
+}
+
