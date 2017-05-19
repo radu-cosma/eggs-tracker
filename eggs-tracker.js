@@ -204,7 +204,7 @@ var initialEggData = JSON.stringify({
 	};	
 
 $(document).ready(function() {
-	localStorage.setItem('eggData', initialEggData);
+	//localStorage.setItem('eggData', initialEggData);
 	if (typeof(Storage) !== 'undefined') {
 		if (localStorage.getItem('eggData') !== null) {
 			eggData = JSON.parse(localStorage.getItem('eggData'));
