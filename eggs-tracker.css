@@ -136,3 +136,21 @@ button:active, button:hover {
 	width: 50px;
 }
 
+.header-image {
+	background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 50%;
+    height: 40px;
+}
+
+#two {
+	background-image: url(./two.png);
+}
+
+#five {
+	background-image: url(./five.png);
+}
+
+#ten {
+	background-image: url(./ten.png);
+}
