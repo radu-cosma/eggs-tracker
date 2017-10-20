@@ -90,6 +90,7 @@ button:active, button:hover {
 
 #reset, #new-line {
 	margin-top: 12px;
+	margin-bottom: 10px;
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #4caf50;
