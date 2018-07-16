@@ -3,7 +3,7 @@
   <name>Eggs Tracker</name>
   <description>Pokemon GO eggs tracker</description>
   <author email="theone_radu@yahoo.com">Radu Cosma</author>
-  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="phonegap-version" value="cli-8.0.0" />
   <preference name="permissions" value="none" />
   <preference name="orientation" value="portrait" />
   <preference name="target-device" value="universal" />
