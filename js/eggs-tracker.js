@@ -1,7 +1,7 @@
 var initialTotals = {
 		'two' : -1,
 		'five' : -1, 
-		'seven': -1,
+		'seven': 609,
 		'ten' : -1
 	},
 	
