@@ -195,12 +195,12 @@ var initialTotals = {
 			
 		if (line[type] - 1 >=0) {
 			--line[type];
-		}
-		if (line.total - 1 >=0) {
-			--line.total;
-		}
-		if (totals[type] - 1 >= 0) {
-			--totals[type];
+			if (line.total - 1 >=0) {
+				--line.total;
+			}
+			if (totals[type] - 1 >= 0) {
+				--totals[type];
+			}
 		}
 		
 		update(index, line, type);
