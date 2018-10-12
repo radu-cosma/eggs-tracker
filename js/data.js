@@ -178,12 +178,40 @@ var initialEggData = JSON.stringify({
 				'since' : '2018-06-03'
 			},
 			{
-				'total' : 1949,
-				'two' : 17,
-				'five' : 19,
-				'ten' : 8,
-				'history' : false,
+				'total' : 1978,
+				'two' : 21,
+				'five' : 23,
+				'seven': 20
+				'ten' : 9,
+				'history' : true,
 				'since' : '2018-06-21'
+			},
+			{
+				'total' : 2019,
+				'two' : 13,
+				'five' : 18,
+				'seven': 1
+				'ten' : 9,
+				'history' : true,
+				'since' : '2018-07-26'
+			},
+			{
+				'total' : 2073,
+				'two' : 19,
+				'five' : 21,
+				'seven': 5
+				'ten' : 9,
+				'history' : true,
+				'since' : '2018-08-20'
+			},
+			{
+				'total' : 2115,
+				'two' : 13,
+				'five' : 18,
+				'seven': 2
+				'ten' : 9,
+				'history' : false,
+				'since' : '2018-09-21'
 			}
 		]
 	});
